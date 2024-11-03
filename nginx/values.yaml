@@ -1,0 +1,7 @@
+service:
+  port: 80
+configmap:
+  port: 80
+deployment:
+  imageVersion: latest
+  replicas: 2
